@@ -1,0 +1,17 @@
+name: Tarea Reilly
+
+on:
+  push:
+    branches:
+      - test_1
+
+jobs:
+  imprimir:
+    runs-on: ubuntu-latest 
+
+    steps:
+      - name: Imprimir mensajes
+        run: |
+          echo "Impresión 1"
+          echo "Impresión 2"
+          echo "Impresión 3"
